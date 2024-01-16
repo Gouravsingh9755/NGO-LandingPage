@@ -1,0 +1,390 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+
+}
+
+html, body{
+
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#div1{
+background-color: aliceblue;
+height: 100%;
+width: 100%;
+
+
+
+}
+
+.subdiv1{
+
+height: 42%;
+width: 20%;
+background-color: gray;
+position: absolute;
+top: 58%;
+left: 40%;
+bottom: 0%;
+border-radius: 10px 10px 0px 0px;
+
+
+}
+
+.subdiv1img{
+
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+
+.progressbar1{
+
+    position: absolute;
+    top: 67.5%;
+    left: -2%;
+}
+
+
+
+.subdiv2{
+
+    height: 52%;
+    width: 20%;
+    background-color: gray;
+    position: absolute;
+    top: 48%;
+    left: 65%;
+    bottom: 0%;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+.subdiv2img1{
+
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.progressbar2{
+
+    position: absolute;
+    top: 66%;
+    left: -2%;
+}
+
+
+
+.b1heading{
+
+    border-radius: 90px;
+    background-color: rgba(22, 176, 114, 0.671);
+    font-size: 20px;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 1%;
+    top: 1%;
+}
+
+.h51{
+    position: absolute;
+    left: 8%;
+    top: 2%;
+
+
+}
+
+
+.h52{
+
+    position: absolute;
+    left: 14%;
+    top: 2%;
+
+}
+
+
+
+.h53{
+
+    position: absolute;
+    left: 25%;
+    top: 2%;
+    color: rgb(58, 57, 57);
+}
+
+img{
+    position: absolute;
+    left: 23%;
+    top: 2%;
+
+
+}
+
+
+.b2mid{
+
+    height: 97px;
+    width: 8%;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    background-color: rgba(239, 181, 73, 0.79);
+    border-radius: 300px;
+    border: none;    
+}
+.b2mid:hover{
+    background: rgb(66, 66, 156);
+    color: white;
+}
+
+.b3up{
+
+    font-size: 40px;
+    position: absolute;
+    bottom: 20%;
+    left: 20%;
+    background: none ;
+    border: none;
+
+
+}
+
+.upbutton{
+
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    /* background-color: purple; */
+    border-radius: 50%;
+    
+    border: 2px solid rgba(239, 181, 73, 0.79);
+}
+
+.downbutton{
+    position: absolute;
+    top: 80%;
+    left:15%;
+    /* background-color: purple; */
+    border: 3px solid rgba(239, 181, 73, 0.79);
+    border-radius: 50%;
+}
+
+
+.h11{
+position: absolute;
+top: 20%;
+left: 10%;
+font-size: 40px;
+}
+
+.h12{
+
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    font-size: 40px;
+    
+}
+
+.h13{
+
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    font-size: 40px;
+}
+
+.h21{
+
+    position: absolute;
+    top: 67%;
+    left: 10%;
+
+}
+
+.h22{
+
+    position: absolute;
+    top: 70%;
+    left: 10%;
+
+}
+
+.h23{
+
+    position: absolute;
+    top: 73%;
+    left: 10%;
+
+
+}
+
+.h41{
+
+    position: absolute;
+    top: 36.8%;
+    left: 10%;
+    color:  rgb(58, 57, 57);
+
+
+
+}
+.h42{
+    position: absolute;
+    top: 89%;
+    left: 10%;
+
+}
+
+.sub1h31{
+
+    position: absolute;
+    top: 45%;
+    left: 2%;
+    font-size: 15px;
+    color: rgba(239, 181, 73, 0.79);
+}
+
+.sub1h32{
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    font-size: 15px;
+    color: beige;   
+
+}
+
+.sub1h33{
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    font-size: 15px;
+    color: rgb(80, 80, 80);
+}
+
+
+.sub1h41{
+    position: absolute;
+    top: 60%;
+    left: 2%;
+    font-size: 20px;
+}
+
+.sub1h51{
+    position: absolute;
+    top: 80%;
+    left: 2%;
+    font-size: 10px;
+}
+
+.sub1h52{
+    position: absolute;
+    top: 80%;
+    left: 16%;
+    font-size: 10px;
+color: rgba(8, 8, 8, 0.847);
+}
+
+.sub1h53{
+    position: absolute;
+    top: 90%;
+    left: 2%;
+
+
+}
+
+
+
+
+
+.sub2h31{
+
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    font-size: 15px;
+    color: rgba(239, 181, 73, 0.79);
+
+}
+
+.sub2h32{
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    font-size: 15px;
+    color: beige;   
+
+}
+
+.sub2h33{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 15px;
+    color: rgb(80, 80, 80);
+
+}
+
+
+.sub2h41{
+    position: absolute;
+    top: 60%;
+    left: 2%;
+    font-size: 23px;
+}
+
+.sub2h51{
+    position: absolute;
+    top: 79%;
+    left: 2%;
+    font-size: 10px;
+}
+
+.sub2h52{
+    position: absolute;
+    top: 79%;
+    left: 16%;
+    font-size: 10px;
+color: rgba(8, 8, 8, 0.847);
+}
+
+.sub2h53{
+    position: absolute;
+    top: 88%;
+    left: 2%;
+
+
+}
+
+.sub2b1{
+    height: 6%;
+    width: 25%;
+    background-color: rgb(0, 128, 0);
+    position: absolute;
+    top: 93%;
+    left: 2%;
+    border-radius: 40px;
+
+
+}
+
+.mainimg{
+
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    left:  45%;
+    top: 5%;
+    border-radius: 500px;
+
+}
